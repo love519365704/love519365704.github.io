@@ -1,0 +1,43 @@
+body,ul,ol,h1,h2,h3,p,input,textarea{
+    margin:0;padding:0;
+    list-style:none;
+    font-size:12px;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border:none;display: block;
+}
+*{
+    box-sizing:border-box;
+}
+
+a{display: block;}
+input{placeholder}
+
+input{margin: 0;padding: 0;border: none;}
+body{background-color: #f2f2f2;}
+html{
+    font-size:100px;
+}
+@media screen and (min-width:320px){
+    html{
+        font-size:42.667px;
+    }
+}
+@media screen and (min-width:360px){
+    html{
+        font-size:48px;
+    }
+}
+@media screen and (min-width:375px){
+    html{
+        font-size:50px;
+    }
+}
+@media screen and (min-width:414px){
+    html{
+        font-size:55.2px;
+    }
+}
