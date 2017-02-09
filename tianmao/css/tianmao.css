@@ -307,11 +307,11 @@ body{font-size: 12px; font-family: "微软雅黑 ";color: #333;background: #f5f5
 /*banner*/
 @font-face {
     font-family: 'iconfont';  /* project id 223366 */
-    src: url('http://at.alicdn.com/t/font_exazzbhxhgbn8kt9.eot');
-    src: url('http://at.alicdn.com/t/font_exazzbhxhgbn8kt9.eot?#iefix') format('embedded-opentype'),
-    url('http://at.alicdn.com/t/font_exazzbhxhgbn8kt9.woff') format('woff'),
-    url('http://at.alicdn.com/t/font_exazzbhxhgbn8kt9.ttf') format('truetype'),
-    url('http://at.alicdn.com/t/font_exazzbhxhgbn8kt9.svg#iconfont') format('svg');
+    src: url('//at.alicdn.com/t/font_exazzbhxhgbn8kt9.eot');
+    src: url('//at.alicdn.com/t/font_exazzbhxhgbn8kt9.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_exazzbhxhgbn8kt9.woff') format('woff'),
+    url('//at.alicdn.com/t/font_exazzbhxhgbn8kt9.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_exazzbhxhgbn8kt9.svg#iconfont') format('svg');
 }
 .banner{
     width:100%;
