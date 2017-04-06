@@ -1,0 +1,239 @@
+html{
+    font-family:"微软雅黑";
+    background: #f5f6fa;
+
+}
+body,h1,h2,h3,h4,h5,h6,ul,li,input,img,p,b,span{
+    margin:0;
+    padding:0;
+    list-style:none;
+
+}
+*{
+    box-sizing:border-box;
+}
+a,button{
+    -webkit-tap-highlight-color:rgba(0,0,0,0)
+}
+a{
+
+    text-decoration:none;
+    margin:0;
+    padding:0;
+}
+img{
+    padding:0;
+    margin:0;
+}
+
+/*banner部分*/
+
+
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.clear:after{
+    content:'';
+    display:none;
+    clear:both;
+}
+.common_width{
+    width:100%;
+}
+.top_bar{
+    height:0.92rem;
+    background:#0078e6;
+}
+.logo_box{
+    width:2.15rem;
+    height:0.92rem;
+    margin:0 auto;
+}
+.logo{
+    margin-top: 0.2rem;
+    width:0.76rem;
+    height:0.67rem;
+    display: block;
+    padding-top:0.2rem;
+    background: url("../images/uek_logo.png") no-repeat center;
+    background-size:contain;
+}
+.logo_box h3{
+    font-size:0.36rem;
+    color:#fff;
+    line-height: 0.92rem;
+}
+.banner a{
+    display:block;
+    height:2.8rem;
+    width:100%;
+}
+.banner a img{
+    height:2.8rem;
+    width:auto;
+}
+
+
+/*金牌师资*/
+content{
+    width: 7.5rem;
+    height: 9.44rem;
+    background: #f5f6fa;
+}
+.nav{
+    width: 7.5rem;
+    height: 0.82rem;
+}
+.nav2{
+    width: 7.02rem;
+    height: 0.82rem;
+    margin: 0 auto;
+    line-height: 0.82rem;
+    font-size: 0.22rem;
+}
+.nav2 a{
+    color: #000;
+}
+/*概述*/
+.content1{
+    width: 7.02rem;
+    height: 4.08rem;
+    background: #ffffff;
+    margin: 0 auto;
+}
+
+.con1left{
+    width: 0.42rem;
+    height: 4.08rem;
+    float: left;
+}
+.con1right{
+    width: 6.4rem;
+    height: 4.08rem;
+    float: left;
+}
+.blue{
+    width: 0.04rem;
+    height: 0.2rem;
+    background:#01b5ff ;
+    margin: 0.32rem auto;
+}
+.name1{
+    width:auto;
+    height: 0.56rem;
+    line-height: 0.56rem;
+    font-size: 0.26rem;
+    color: #000;
+    margin-top: 0.12rem;
+    border-bottom: 0.01rem dashed #999999;
+}
+.information{
+    width: auto;
+    height: 2.8rem;
+    margin-top: 0.3rem;
+}
+.photo{
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 0.08rem;
+    background: url("../images/photo.jpg")no-repeat;
+    background-size: cover;
+    float: left;
+}
+.introduce{
+    width: 3.33rem;
+    height: 2.8rem;
+    float: right;
+}
+.introduce .name {
+    width: auto;height: auto;
+    line-height: 0.28rem;
+}
+.introduce .name b{
+    font-size: 0.28rem;
+    color: #000;
+}
+.introduce .name span{
+    font-size: 0.2rem;
+    margin-top: 0.08rem;
+    color: #01b5ff;
+}
+.introduce .major{
+    width: auto;height: auto;
+    line-height: 0.24rem;
+    color: #000;
+    font-size: 0.24rem;
+    margin-top: 0.3rem;
+}
+.introduce .skill{
+    margin-top: 0.19rem;
+    width: auto;height: auto;
+    line-height: 0.24rem;
+    color: #000;
+    font-size: 0.24rem;
+}
+.introduce .two{
+    margin-top: 0.19rem;
+    margin-left: 1.3rem;
+}
+.introduce .exp{
+    width: auto;height: auto;
+    line-height: 0.24rem;
+    color: #000;
+    font-size: 0.24rem;
+    margin-top: 0.3rem;
+}
+
+/*教师简介*/
+.content2{
+    width: 7.02rem;
+    height: 4.85rem;
+    background: #ffffff;
+    margin: 0 auto;
+    margin-top: 0.2rem;
+}
+.con1right2{
+    width: 6.4rem;
+    height: auto;
+    float: left;
+}
+.Personal{
+    width: 6.4rem;
+    height: auto;
+}
+.con1,.con2{
+    height: auto;
+    width: 6.4rem;
+    margin-top: 0.1rem; line-height: 0.42rem;
+    font-size: 0.24rem;
+}
+.con1 a,.con2 a{
+     color: #666666;
+}
+.con2{
+    margin-top: 0.4rem;
+}
+
+
+/*底部*/
+.footer{
+    width: 100%;
+    height: 1rem;
+    padding-top: 0.2rem;
+}
+.copyright{
+    width: 100%;
+    height: 0.5rem;
+    text-align: center;
+    line-height: 0.22rem;
+}
+.copyright span{
+    font-size: 0.2rem;
+}
+.copyright p{
+    margin-top: 0.1rem;
+    font-size: 0.2rem;
+}

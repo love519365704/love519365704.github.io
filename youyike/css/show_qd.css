@@ -1,0 +1,506 @@
+html{
+    font-family:"微软雅黑";
+    background: #f5f6fa;
+
+}
+body,h1,h2,h3,h4,h5,h6,ul,li,input,img,p,b,span{
+    margin:0;
+    padding:0;
+    list-style:none;
+
+}
+*{
+    box-sizing:border-box;
+}
+a,button{
+    -webkit-tap-highlight-color:rgba(0,0,0,0)
+}
+a{
+    text-decoration:none;
+    margin:0;
+    padding:0;
+}
+img{
+    display: block;
+    padding:0;
+    margin:0;
+}
+
+
+
+/*banner部分*/
+
+.left02{
+    float:left;
+}
+.right{
+    float:right;
+}
+.clear:after{
+    content:'';
+    display:none;
+    clear:both;
+}
+.common_width{
+    width:100%;
+}
+.top_bar{
+    height:0.92rem;
+    background:#0078e6;
+}
+.logo_box{
+    width:2.15rem;
+    height:0.92rem;
+    margin:0 auto;
+}
+.logo{
+    margin-top: 0.2rem;
+    width:0.76rem;
+    height:0.67rem;
+    display: block;
+    padding-top:0.2rem;
+    background: url("../images/uek_logo.png")no-repeat center;
+    background-size:contain;
+}
+.logo_box h3{
+    font-size:0.36rem;
+    color:#fff;
+    line-height: 0.92rem;
+}
+.banner a{
+    display:block;
+    height:2.8rem;
+    width:100%;
+}
+.banner a img{
+    height:2.8rem;
+    width:auto;
+}
+
+
+/*关于我们*/
+content{
+    width: 7.5rem;
+    height: 29.5rem;
+    background: #f5f6fa;
+}
+.nav{
+    width: 7.5rem;
+    height: 0.82rem;
+}
+.nav2{
+    width: 7.02rem;
+    height: 0.82rem;
+    margin: 0 auto;
+    line-height: 0.82rem;
+    font-size: 0.22rem;
+}
+.nav2 a{
+    color: #000;
+}
+.content1{
+    width: 7.02rem;
+    height: 2.26rem;
+    background: #ffffff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.content1 a{
+    color: #000;
+
+}
+.content1 div{
+    width: 1.22rem;
+    height: auto;
+    text-align: center;
+    font-size: 0.24rem; line-height: 0.6rem;
+
+}
+.content1 img{
+    width: 1.21rem;
+    height: 1.21rem;
+    margin-top: 0.28rem;
+}
+
+
+/*关于前端工程师*/
+
+.content2{
+    width: 7.02rem;
+    height: 4.66rem;
+    background: #ffffff;
+    margin: 0 auto;
+    margin-top: 0.1rem;
+}
+.con1left{
+    width: 0.42rem;
+    height: auto;
+    float: left;
+}
+.con1right{
+    width: 6.4rem;
+    height: auto;
+    float: left;
+}
+.blue{
+    width: 0.04rem;
+    height: 0.2rem;
+    background:#01b5ff ;
+    margin: 0.32rem auto;
+}
+.name1{
+    width:auto;
+    height: 0.56rem;
+    line-height: 0.56rem;
+    font-size: 0.26rem;
+    color: #000;
+    margin-top: 0.12rem;
+    border-bottom: 0.01rem dashed #999999;
+}
+.information1{
+    width: 6.4rem;
+    height: auto;
+    font-size: 0.24rem;
+    line-height: 0.36rem;
+
+}
+.information1 a{
+    color: #666666;
+}
+.information1 span{
+    color: #01b5ff;
+}
+
+.details1{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+            -webkit-line-clamp:2;
+            -webkit-box-orient:vertical;
+}
+.details2{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp:4;
+    -webkit-box-orient:vertical;
+}
+.details3{
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden
+
+}
+
+/*行业就业薪资*/
+
+.content3{
+    width: 7.02rem;
+    height: 5.76rem;
+    background: #ffffff;
+    margin: 0 auto;
+    margin-top: 0.1rem;
+}
+
+.con3right{
+    width: 6.4rem;
+    height: 5.76rem;
+    float: left;
+}
+
+
+.information3{
+    width: 6.4rem;
+    height: 5.06rem;
+    font-size: 0.26rem;
+    line-height: 0.26rem;
+    text-align: center;
+    color: #000;
+}
+.ring{
+    width: 6.13rem;
+    height: 4.46rem;
+    position: relative;
+    font-size: 0.24rem;
+    color: #777777;
+}
+.ring img{
+    width: 3.07rem;
+    height: 3.07rem;
+    position: absolute;
+    top:0.9rem;left: 1.5rem;
+}
+.ring1{
+    position: absolute;
+    top:1.1rem;left: 0.4rem;
+}
+.ring2{
+    position: absolute;
+    top:3.48rem;left: 0.8rem;
+}
+.ring3{
+    position: absolute;
+    top:3.22rem;left: 4.52rem;
+}
+.ring4{
+    position: absolute;
+    top:1.82rem;left: 4.72rem;
+}
+.ring5{
+    position: absolute;
+    top:0.45rem;left: 3.84rem;
+}
+
+
+
+/*可就业岗位*/
+.content4{
+    width: 7.02rem;
+    height: 5.55rem;
+    background: #ffffff;
+    margin: 0 auto;
+    margin-top: 0.1rem;
+}
+
+.con4right{
+    width: 6.4rem;
+    height: 5.55rem;
+    float: left;
+}
+
+.information4{
+    width: 6.4rem;
+    height: 4.85rem;
+}
+.information4 div{
+    margin-top: 0.2rem;
+    width: 6.4rem;
+    height: 0.56rem;
+}
+.information4 img{
+    width: 0.56rem;
+    height: 0.56rem;float: left;
+}
+
+.post{;
+    width: 5.65rem;
+    height: 0.56rem;
+    float: right;
+}
+.post li{
+
+    font-size: 0.24rem;
+    line-height: 0.3rem;
+    color: #01b5ff;
+}
+.post li:nth-child(2){
+    font-size: 0.16rem;
+    color: #3e3a39;
+}
+
+/*就业学员薪资*/
+
+.content5{
+    width: 7.02rem;
+    height: 4.98rem;
+    background: #ffffff;
+    margin: 0 auto;
+    margin-top: 0.1rem;
+}
+.con5left{
+    width: 0.42rem;
+    height: auto;
+    float: left;
+}
+.con5left img{
+    width: 0.42rem;
+    height: 3.52rem;
+    margin-top: 0.95rem;
+}
+.con5right{
+    width: 6.4rem;
+    height: 4.98rem;
+    float: left;
+}
+
+
+.information5{
+    width: 6.4rem;
+    height: 4.28rem;
+
+}
+.list{
+    width: auto;
+    height: 0.78rem;
+    line-height: 0.78rem;
+    font-size: 0.22rem;
+    color: #000;
+}
+.list1{
+    float: left;
+    margin-left: 0.16rem;
+}
+.list2{
+    float: left;
+    margin-left: 1.03rem;
+}
+.list3{
+    float: left;
+    margin-left: 2.2rem;
+}
+
+.list02{
+    width: auto;
+    height: 0.68rem;
+    line-height: 0.68rem;
+    font-size: 0.22rem;
+    color: #666666;
+}
+.name{
+    float: left;
+    margin-left: 0.16rem;
+
+}
+.money{
+    float: left;
+    margin-left:0.45rem;
+    color: #ffa201;
+}
+.other{
+    float: left;
+    margin-left: 0.35rem;
+}
+
+/*课程安排*/
+
+.content6{
+    width: 7.02rem;
+    height: 4.98rem;
+    background: #ffffff;
+    margin: 0 auto;
+    margin-top: 0.1rem;
+}
+
+.con6right{
+    width: 6.4rem;
+    height: 4.98rem;
+    float: left;
+}
+
+
+.information6{
+    width: 6.4rem;
+    height: 4.3rem;
+    position: relative;
+}
+.information6 div{
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    background:#00a0e9 ;
+    position: absolute;
+}
+
+.ball1{
+    width: 1.1rem;
+    height: 1.1rem;
+
+    font-size: 0.22rem;
+    line-height: 1.1rem;
+
+    top: 0.33rem;left: 0.52rem;
+}
+.ball2{
+    width: 1.38rem;
+    height: 1.38rem;
+    font-size: 0.22rem;
+    line-height: 1.38rem;
+    top: 1.43rem;left: -0.1rem;
+}
+.ball3{
+    width: 0.9rem;
+    height: 0.9rem;
+    font-size: 0.2rem;
+    line-height: 0.9rem;
+    top: 2.97rem;left: 0.41rem;
+}
+.ball4{
+    width: 0.87rem;
+    height: 0.87rem;
+    font-size: 0.18rem;
+    line-height: 0.87rem;
+    top: 1.23rem;left: 1.33rem;
+}
+.ball5{
+    width: 1.22rem;
+    height: 1.22rem;
+    font-size: 0.2rem;
+    line-height: 0.3rem;
+    top:2.13rem;left: 1.27rem;
+}
+.ball6{
+    width: 1.57rem;
+    height: 1.57rem;
+    font-size: 0.24rem;
+    line-height: 1.57rem;
+    top:0.41rem;left: 2.25rem;
+}
+.ball7{
+    width: 1.41rem;
+    height: 1.41rem;
+    font-size: 0.2rem;
+    line-height: 0.34rem;
+    top:2.2rem;left: 2.51rem;
+}
+.ball8{
+    width: 1.23rem;
+    height: 1.23rem;
+    font-size: 0.2rem;
+    line-height: 1.23rem;
+    top:1.39rem;left: 3.73rem;
+}
+.ball9{
+     width: 1.39rem;
+     height: 1.39rem;
+     font-size: 0.2rem;
+     line-height: 1.39rem;
+     top:2.68rem;left: 4.05rem;
+ }
+.ball10{
+    width: 1.11rem;
+    height: 1.11rem;
+    font-size: 0.2rem;
+    line-height: 1.11rem;
+    top:0.34rem;left: 4.47rem;
+}
+.ball11{
+    width: 1.24rem;
+    height: 1.24rem;
+    font-size: 0.2rem;
+    line-height: 1.24rem;
+    top:1.39rem;left: 5.16rem;
+}
+
+
+
+
+/*底部*/
+.footer{
+    width: 100%;
+    height: 1rem;
+    padding-top: 0.2rem;
+}
+.copyright{
+    width: 100%;
+    height: 0.5rem;
+    text-align: center;
+    line-height: 0.22rem;
+}
+.copyright span{
+    font-size: 0.2rem;
+}
+.copyright p{
+    margin-top: 0.1rem;
+    font-size: 0.2rem;
+}
